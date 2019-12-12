@@ -1,7 +1,7 @@
-*******************
-NodeJS Sensor Cloud
-*******************
+************************
+NodeJS Sensor data Cloud
+************************
 
-A NodeJS example application for the falila Vesta Gateway.
+A NodeJS application for the falila Gateway.
 
 Gateway reads sensor data from an edge device and sends it up to a cloud service.
