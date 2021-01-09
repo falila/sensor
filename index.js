@@ -21,7 +21,6 @@ const provider = new CloudProvider(config);
 
 function startScanning() {
     // Restart scanning
-    // https://github.com/sandeepmistry/noble/issues/223
     if (noble.state === 'poweredOn') {
         noble.startScanning([], true);
     } else {
